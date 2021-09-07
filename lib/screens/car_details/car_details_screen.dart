@@ -45,6 +45,7 @@ class CarDetailsScreen extends StatelessWidget {
                   top: 4.5.vh,
                   right: 2.5.vw,
                   child: _circleButton(Icons.arrow_back, () {
+                    Navigator.of(context).pop();
                     //todo pop up
                     print('pop up');
                   }),

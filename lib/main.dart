@@ -1,4 +1,3 @@
-import 'package:car_view/screens/car_details/car_details_screen.dart';
 import 'package:car_view/screens/car_home/car_home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';

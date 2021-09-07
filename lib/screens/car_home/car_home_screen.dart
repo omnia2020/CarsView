@@ -1,3 +1,4 @@
+import 'package:car_view/screens/car_details/car_details_screen.dart';
 import 'package:car_view/screens/car_details/widgets/car_types_widget.dart';
 import 'package:car_view/screens/car_home/widgets/car_tiles_view.dart';
 import 'package:car_view/screens/car_home/widgets/search_car.dart';
@@ -67,6 +68,10 @@ class CarHomeScreen extends StatelessWidget {
                   title: 'جي ام سي | بوكن | الفئة الرابعه',
                   verifiedAt: 2021,
                   year: 2019,
+                  openCar: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (_) => CarDetailsScreen()));
+                  },
                 ),
                 CarTypesWidget(
                   kmCount: 20000,
@@ -75,6 +80,10 @@ class CarHomeScreen extends StatelessWidget {
                   title: 'جي ام سي | بوكن | الفئة الرابعه',
                   verifiedAt: 2021,
                   year: 2019,
+                  openCar: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (_) => CarDetailsScreen()));
+                  },
                 ),
                 CarTypesWidget(
                   kmCount: 20000,
@@ -83,6 +92,10 @@ class CarHomeScreen extends StatelessWidget {
                   title: 'جي ام سي | بوكن | الفئة الرابعه',
                   verifiedAt: 2021,
                   year: 2019,
+                  openCar: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (_) => CarDetailsScreen()));
+                  },
                 ),
                 CarTypesWidget(
                   kmCount: 20000,
@@ -91,6 +104,10 @@ class CarHomeScreen extends StatelessWidget {
                   title: 'جي ام سي | بوكن | الفئة الرابعه',
                   verifiedAt: 2021,
                   year: 2019,
+                  openCar: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (_) => CarDetailsScreen()));
+                  },
                 ),
                 CarTypesWidget(
                   kmCount: 20000,
@@ -99,6 +116,10 @@ class CarHomeScreen extends StatelessWidget {
                   title: 'جي ام سي | بوكن | الفئة الرابعه',
                   verifiedAt: 2021,
                   year: 2019,
+                  openCar: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (_) => CarDetailsScreen()));
+                  },
                 ),
                 CarTypesWidget(
                   kmCount: 20000,
@@ -107,6 +128,10 @@ class CarHomeScreen extends StatelessWidget {
                   title: 'جي ام سي | بوكن | الفئة الرابعه',
                   verifiedAt: 2021,
                   year: 2019,
+                  openCar: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (_) => CarDetailsScreen()));
+                  },
                 ),
               ],
             ),
